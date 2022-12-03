@@ -8,12 +8,19 @@
         document.getElementById('minus').style.display = "block"
     }
     calculation = parseInt(value) + parseInt((num));
-    document.getElementById('value').value = calculation;
+                calculation = parseInt(value) + parseInt((num));
+        if(value<9)
+        {
+            document.getElementById('value').value = "0"+calculation;
+        }
+        else{
+            document.getElementById('value').value = calculation;
+        }
 }
 
 
 function reset(){
     document.getElementById('minus').style.display = "none"
-    document.getElementById('value').value = 0 ;
+    document.getElementById('value').value = 00 ;
 }
 
