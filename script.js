@@ -11,3 +11,8 @@
     document.getElementById('value').value = calculation;
 }
 
+
+function reset(){
+    document.getElementById('value').value = 0 ;
+}
+
