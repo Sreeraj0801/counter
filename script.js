@@ -13,6 +13,7 @@
 
 
 function reset(){
+    document.getElementById('minus').style.display = "none"
     document.getElementById('value').value = 0 ;
 }
 
